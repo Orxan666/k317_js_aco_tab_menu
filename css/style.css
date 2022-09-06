@@ -1,0 +1,37 @@
+.accordion .active {
+  visibility: visible;
+  height: 80px;
+}
+
+.accordion button {
+  width: 100%;
+  padding: 15px;
+  background-color: goldenrod;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid red;
+}
+
+.accordion p {
+  margin: 0%;
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  visibility: hidden;
+}
+
+.tab button {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.tab p {
+  padding: 15px;
+  display: none;
+}
+
+.tab p.active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

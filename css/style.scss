@@ -1,0 +1,44 @@
+.accordion {
+    .active {
+        visibility: visible;
+        height: 80px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        background-color: goldenrod;
+        color:  #fff;
+        font-size: 18px;
+        font-weight: 700;
+        border: 1px solid red;
+
+    }
+
+    p {
+        margin: 0%;
+        height: 0;
+        transition: 1s;
+        visibility: hidden;
+    }
+}
+
+// accordion end
+.tab {
+    button {
+
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    p {
+        padding: 15px;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    } 
+
+
+}
